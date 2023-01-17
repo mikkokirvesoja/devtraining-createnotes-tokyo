@@ -88,9 +88,10 @@
 }
 ]]></client_script>
         <controller_as>c</controller_as>
-        <css>h3.panel-title {
-  font-size:20px;
-  padding-top:5px;
+        <css>h3.panel-title {&#13;
+  font-size:20px;&#13;
+  padding-top:5px;&#13;
+  color: red;&#13;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -153,14 +154,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-30 18:13:04</sys_created_on>
         <sys_id>06948fa8db3133000613a08a4896194c</sys_id>
-        <sys_mod_count>15</sys_mod_count>
         <sys_name>Notes List</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_widget_06948fa8db3133000613a08a4896194c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-30 23:08:20</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">
